@@ -38,7 +38,7 @@ body{
     background-color: lineat-gradient(180deg, #0000008c 0%, #0000008c 100%);
     background-image: url('../images/Fondo.jpg');
     background-size: cover;
-    clip-path: polygon(100% 0, 100% 100%, 50% 90%, 0 100%, 0 0);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
     z-index: -1;
 }
 
@@ -85,7 +85,7 @@ body{
     gap: 1em;
     padding-bottom: 100px;
     text-align: center;
-    color: #000000;
+    color: beige;
 }
 
 .hero__title{
@@ -184,4 +184,43 @@ body{
     text-align: center;
     gap: 1rm;
     font-size: 13px;
+}
+/*barra de busqueda*/
+.box{
+    position: absolute;
+    top: 120%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+input.src{
+    padding: 9px 10px 9px 32px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 15px;
+    color: #444;
+    border: 3px solid #a50559;
+    width: 60px;
+    transition: all .5s;
+}
+
+input.src:hover{
+    width: 500px;
+    background-color: #fff;
+    border-color: #8c10b3;
+    box-shadow:0 0 5px #6dcff680;
+    cursor:pointer;
+}
+
+.Lo_mas_vendido h2{
+    border-style:solid;
+    border-color: rgb(196, 148, 182);
+    color: white;
+    background-color: #cb9df1;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.Lo_mas_vendido p{
+    text-align: center;
 }
