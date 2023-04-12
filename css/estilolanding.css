@@ -9,13 +9,18 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+
+
 .container{
+   
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
     overflow: hidden;
     padding: var(--padding-container);
+    
 }
+
 
 .hero{
     width: 100%;
@@ -167,7 +172,7 @@ body{
 
 
 .footer{
-    background-color: #2091f9;
+    background-color: #c257e6;
 }
 
 .footer__container{
